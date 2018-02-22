@@ -1,0 +1,16 @@
+.headertoolbar
+{
+    position: fixed; width: 100%; top:0;
+    z-index: 1;
+}
+
+.contentbar{
+    margin:40px auto;
+    display:inline-block;
+}
+
+.footertoolbar
+{
+    position: fixed; width: 100%; bottom:0;
+    z-index: 1;
+}

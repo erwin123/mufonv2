@@ -1,0 +1,51 @@
+.right-spacer {
+    flex: 1 1 auto;
+ }
+
+ .home-logo img{
+    margin-top:8px !important;
+}
+
+ .home-toolbar{
+    background: linear-gradient(to right,  #ffffff,#ffffff, #e4e4e4);
+    border-bottom: 1px solid rgb(211, 211, 211);
+    opacity: 0.9;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+ }
+
+.upper-menu{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.blocker{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 99;
+    background: #000;
+    opacity: 0.8;
+}
+
+div.collapsed {
+    overflow: hidden;
+    width: 100%;
+    margin-top:15px;
+    z-index: 5;
+}
+
+div.collapsed button{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+    color:#fff;
+    border: none;
+    border-radius: 3%;
+    background: #003665;
+}
+
+.focused{
+    opacity: 1;
+}

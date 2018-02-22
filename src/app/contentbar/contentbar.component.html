@@ -1,0 +1,21 @@
+<div class="contentbar">
+  <app-bannercarousel></app-bannercarousel>
+  <!--Profile section, it will be throw to another component-->
+  <div class="contentbar-profile">
+    <div class="contentbar-profile-account">
+      Erwin Antonius<br/>
+      <i class="fa  fa-database"></i> &nbsp; Point : 320
+    </div>
+    <div class="contentbar-profile-balance">
+      Muf Balance<br/>
+      <i class="fa  fa-credit-card"></i> &nbsp; Rp. 20.000
+    </div>
+  </div>
+  <!--Headline Feature section, it will be throw to another component-->
+  <div class="headline-feature">
+    <app-drawerapps></app-drawerapps>
+    <app-sliderapps title="Features" [appiconsinput]="appicons"></app-sliderapps>
+    <app-sliderapps title="Facilities" [appiconsinput]="appicons"></app-sliderapps>
+  </div>
+  
+</div>

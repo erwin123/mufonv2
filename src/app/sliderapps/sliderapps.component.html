@@ -1,0 +1,11 @@
+<div class="slider-container">
+    <h5>{{title}}</h5>
+    <div class="slider-content">
+        <div class="slider-apps" *ngFor="let app of appiconsinput">
+            <div class="slider-apps-block">
+                <i class="{{app.url}}"></i>
+                <div class="title">{{app.title}}</div>
+            </div>
+        </div>
+    </div>
+</div>

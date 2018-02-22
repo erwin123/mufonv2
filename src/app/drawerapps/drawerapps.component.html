@@ -1,0 +1,9 @@
+<div class="drawer-container">
+    <div class="square-apps" *ngFor="let app of appicons">
+        <div class="square-apps-block">
+            <i class="{{app.url}} fa-big" [style.color]="app.color"></i>
+            <div class="title">{{app.title}}</div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>

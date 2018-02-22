@@ -1,0 +1,25 @@
+.contentbar-profile div{
+    box-shadow:inset 0px 11px 8px -10px #CCC;
+    background: #fff;
+}
+.contentbar-profile-account, .contentbar-profile-balance{
+    margin:0px auto;
+    float:left;
+    width: 40%;
+    height: 40px;
+    padding-top:10px;
+    border-bottom: 1px #ccc solid;
+    font-size: 12px;
+    padding-left: 10%;
+    
+}
+
+.contentbar-profile-account{
+    border-right: 1px solid #ccc;
+    width : calc(40% - 1px);
+}
+
+.headline-feature{
+    max-width: 800px;
+    margin:0 auto;
+}
